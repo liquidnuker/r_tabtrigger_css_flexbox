@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+justify-content: ${2:flex-end | center | space-between | space-around | flex-start(default)};
+${1:@include sfm_justify-content();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-c-justify-content</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>C-justify content main axis</description>
+  <scope>source.scss</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex-shrink: ${2:num};${3: 1(default)}
+${1:@include sfm_flex-shrink();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-shrink</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-item shrink if necessary</description>
+  <scope>source.scss</scope>
+</snippet>

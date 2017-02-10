@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+align-items: stretch;${2:(default) flex-start | flex-end | center | baseline}
+${1:@include sfm_align-items();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>align-items</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>C-align items cross axis</description>
+  <scope>source.scss</scope>
+</snippet>

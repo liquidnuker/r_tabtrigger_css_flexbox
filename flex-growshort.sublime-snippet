@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex-grow: 1;${2:-equal 2-twice | 0(default)}
+${1:@include sfm_flex-grow();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-grow</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-widen/grow item if necessary</description>
+  <scope>source.scss</scope>
+</snippet>

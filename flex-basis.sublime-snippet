@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex-basis: auto;${2:(default-extra space) 0-all space | length}
+${1:@include sfm_flex-basis();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-i-flex-basis</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-size of item before remaining space distrib</description>
+  <scope>source.scss</scope>
+</snippet>

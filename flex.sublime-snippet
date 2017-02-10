@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex: ${2:none | flex-grow flex-shrink | flex-basis //default 0 1 auto};
+${1:@include sfm_flex();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-i-flex</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-flex-grow flex-shrink flex-basis shorthand</description>
+  <scope>source.scss</scope>
+</snippet>

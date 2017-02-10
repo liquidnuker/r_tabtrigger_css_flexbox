@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+align-self: ${2:auto | flex-start | flex-end | center | baseline | stretch};
+${1:@include sfm_align-self();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-i-align-self</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-align a particular item</description>
+  <scope>source.scss</scope>
+</snippet>

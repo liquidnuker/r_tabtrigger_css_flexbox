@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex-wrap: wrap;${2: wrap-reverse nowrap(default)}
+${1:@include sfm_flex-wrap();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-wrap</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>C-wrap flex items to next line</description>
+  <scope>source.scss</scope>
+</snippet>

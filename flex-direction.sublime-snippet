@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+flex-direction: row;${2:(default) | row-reverse | column | column-reverse}
+${1:@include sfm_flex-direction();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>flex-c-flex-direction</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>C-direction of flex items</description>
+  <scope>source.scss</scope>
+</snippet>

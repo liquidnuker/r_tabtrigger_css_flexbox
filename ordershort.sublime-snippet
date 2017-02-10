@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+order: ${2:num};
+${1:@include sfm_order();}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>order</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <description>I-custom layout item order</description>
+  <scope>source.scss</scope>
+</snippet>
